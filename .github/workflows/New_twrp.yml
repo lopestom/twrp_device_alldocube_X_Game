@@ -14,7 +14,7 @@ on:
 
 env:
   MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp -b twrp-11
-  DEVICE: T1023
+  DEVICE: X_Game
   DT_LINK: https://github.com/lopestom/twrp_device_alldocube_T1023
   DT_PATH: device/alldocube/T1023
   TARGET: bootimage
