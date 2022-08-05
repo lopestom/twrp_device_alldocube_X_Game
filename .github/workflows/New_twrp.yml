@@ -72,7 +72,7 @@ jobs:
        - name: Release recovery image
          uses: softprops/action-gh-release@v1
          env:
-          GITHUB_TOKEN: ${{ secrets.OUKITEL }}
+          GITHUB_TOKEN: ${{ secrets.TEST }}
          with:
           tag_name: Alldocube_X_Game
           name: TWRP36x_11
