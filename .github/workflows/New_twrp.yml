@@ -74,7 +74,7 @@ jobs:
          env:
           GITHUB_TOKEN: ${{ secrets.TEST }}
          with:
-          tag_name: Umidigi_Power_5-4_128
+          tag_name: Alldocube_X_Game
           name: TWRP36x_11
           files: | 
             twrp/out/target/product/T1023/boot*.img
