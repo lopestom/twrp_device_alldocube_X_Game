@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/twrp_X_Game.mk
+     $(LOCAL_DIR)/twrp_T1023.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_X_Game-userdebug \
-    twrp_X_Game-user \
-    twrp_X_Game-eng
+    twrp_T1023-userdebug \
+    twrp_T1023-user \
+    twrp_T1023-eng
