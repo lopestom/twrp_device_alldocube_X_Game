@@ -16,7 +16,7 @@
 #
 
 # Device path
-DEVICE_PATH := device/alldocube/X_Game
+DEVICE_PATH := device/alldocube/T1023
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
