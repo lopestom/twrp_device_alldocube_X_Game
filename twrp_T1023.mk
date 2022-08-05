@@ -29,7 +29,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
 # Inherit from device
-$(call inherit-product, device/alldocube/X_Game/device.mk)
+$(call inherit-product, device/alldocube/T1023/device.mk)
 
 # Inherit some common twrp stuff.
 #$(call inherit-product, vendor/omni/config/common_tablet.mk)
