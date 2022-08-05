@@ -38,7 +38,7 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 # Device identifier. This must come after all inclusions
 #PRODUCT_DEVICE := X_Game
 PRODUCT_DEVICE := T1023
-PRODUCT_NAME := omni_T1023
+PRODUCT_NAME := twrp_X_Game
 PRODUCT_BRAND := Alldocube
 PRODUCT_MODEL := X_Game
 PRODUCT_MANUFACTURER := Alldocube
