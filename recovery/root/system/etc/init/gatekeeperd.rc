@@ -1,0 +1,6 @@
+service gatekeeperd /system/bin/gatekeeperd /data/misc/gatekeeper
+    user root
+    group root
+    disabled
+    writepid /dev/cpuset/system-background/tasks
+    seclabel u:r:recovery:s0
