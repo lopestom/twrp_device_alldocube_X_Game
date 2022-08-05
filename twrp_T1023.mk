@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-LOCAL_PATH := device/alldocube/X_Game
+LOCAL_PATH := device/alldocube/T1023
 
 # Release name
 PRODUCT_RELEASE_NAME := X_Game
