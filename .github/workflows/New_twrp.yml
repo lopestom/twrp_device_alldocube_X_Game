@@ -17,7 +17,7 @@ env:
   DEVICE: X_Game
   DT_LINK: https://github.com/lopestom/twrp_device_alldocube_X_Game
   DT_PATH: device/alldocube/X_Game
-  TARGET: recoveryimage
+  TARGET: bootimage
   TZ: Asia/manila
 
 jobs:
@@ -67,7 +67,7 @@ jobs:
               PATH=~/bin:$PATH
               cd twrp
               export ALLOW_MISSING_DEPENDENCIES=true && source build/envsetup.sh &&lunch twrp_X_Game-eng && mka $TARGET -j$(nproc --all)
-              cp  out/target/product/X_Game/recovery.img    out/target/product/X_Game/recovery-X_Game-A11-$(date +"%Y%m%d-%H%M").img  
+              cp  out/target/product/X_Game/boot.img    out/target/product/X_Game/boot-X_Game-A11-$(date +"%Y%m%d-%H%M").img  
              
        - name: Release recovery image
          uses: softprops/action-gh-release@v1
@@ -77,4 +77,5 @@ jobs:
           tag_name: Alldocube_X_Game
           name: TWRP36x_11
           files: | 
-            twrp/out/target/product/X_Game/recovery*.img
+            twrp/out/target/product/X_Game/boot*.img
+            twrp/out/target/product/X_Game/ramdisk*.img
