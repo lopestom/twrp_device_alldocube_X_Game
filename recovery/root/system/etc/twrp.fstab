@@ -4,9 +4,9 @@
 /product            ext4    /dev/block/mapper/product             flags=backup=1;wipeingui;logical;display="Product_a";slotselect
 
 # Images
-/system_image	    emmc  	/dev/block/mapper/system_a            flags=backup=1;flashimg=1;slotselect;logical;display="System Image_a"
-/vendor_image	    emmc  	/dev/block/mapper/vendor_a             flags=backup=1;flashimg=1;slotselect;logical;display="Vendor Image_a"
-/product_image	    emmc	/dev/block/mapper/product_a             flags=backup=1;flashimg=1;slotselect;logical;display="Product Image_a"
+/system_image	    emmc  	/dev/block/mapper/system_b            flags=backup=1;flashimg=1;slotselect;logical;display="System Image_b"
+/vendor_image	    emmc  	/dev/block/mapper/vendor_b             flags=backup=1;flashimg=1;slotselect;logical;display="Vendor Image_b"
+/product_image	    emmc	/dev/block/mapper/product_b             flags=backup=1;flashimg=1;slotselect;logical;display="Product Image_b"
 
 # Core Partitions
 /metadata             ext4    /dev/block/by-name/md_udc         flags=backup=1;display="metadata";mounttodecrypt
